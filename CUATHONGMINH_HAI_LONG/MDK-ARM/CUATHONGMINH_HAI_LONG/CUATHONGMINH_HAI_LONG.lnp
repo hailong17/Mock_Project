@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"cuathongminh_hai_long\startup_stm32f103xb.o"
+"cuathongminh_hai_long\keypad_4x4.o"
+"cuathongminh_hai_long\lcd_i2c.o"
+"cuathongminh_hai_long\rc522.o"
+"cuathongminh_hai_long\main.o"
+"cuathongminh_hai_long\stm32f1xx_it.o"
+"cuathongminh_hai_long\stm32f1xx_hal_msp.o"
+"cuathongminh_hai_long\stm32f1xx_hal_gpio_ex.o"
+"cuathongminh_hai_long\stm32f1xx_hal_i2c.o"
+"cuathongminh_hai_long\stm32f1xx_hal.o"
+"cuathongminh_hai_long\stm32f1xx_hal_rcc.o"
+"cuathongminh_hai_long\stm32f1xx_hal_rcc_ex.o"
+"cuathongminh_hai_long\stm32f1xx_hal_gpio.o"
+"cuathongminh_hai_long\stm32f1xx_hal_dma.o"
+"cuathongminh_hai_long\stm32f1xx_hal_cortex.o"
+"cuathongminh_hai_long\stm32f1xx_hal_pwr.o"
+"cuathongminh_hai_long\stm32f1xx_hal_flash.o"
+"cuathongminh_hai_long\stm32f1xx_hal_flash_ex.o"
+"cuathongminh_hai_long\stm32f1xx_hal_exti.o"
+"cuathongminh_hai_long\stm32f1xx_hal_spi.o"
+"cuathongminh_hai_long\stm32f1xx_hal_tim.o"
+"cuathongminh_hai_long\stm32f1xx_hal_tim_ex.o"
+"cuathongminh_hai_long\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "CUATHONGMINH_HAI_LONG\CUATHONGMINH_HAI_LONG.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CUATHONGMINH_HAI_LONG.map" -o CUATHONGMINH_HAI_LONG\CUATHONGMINH_HAI_LONG.axf
